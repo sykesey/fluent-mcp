@@ -13,6 +13,7 @@ export enum ServiceNowMetadataType {
   ATF_CATALOG_VALIDATION = 'atf-catalog-validation',
   ATF_CATALOG_VARIABLE = 'atf-catalog-variable',
   ATF_EMAIL = 'atf-email',
+  ATF_FLOW = 'atf-flow',
   ATF_FORM = 'atf-form',
   ATF_FORM_ACTION = 'atf-form-action',
   ATF_FORM_DECLARATIVE_ACTION = 'atf-form-declarative-action',

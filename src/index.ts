@@ -4,6 +4,9 @@ import { FluentMcpServer } from './server/fluentMCPServer.js';
 import logger from './utils/logger.js';
 import { getConfig } from './config.js';
 
+import { config as cfg } from 'dotenv';
+cfg(); // Load environment variables from .env file
+
 /**
  * Main entry point for the Fluent MCP server for ServiceNow SDK
  * This server implements the Model Context Protocol to provide ServiceNow SDK functionality
